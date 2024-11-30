@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Using defer ensures the script runs after the DOM is fully loaded -->
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="todolist">
+            <h2>To-Do List <i class="fa-duotone fa-solid fa-rectangle-list"></i></h2>
+            <input type="text" placeholder="Add Your List" id="inputvalue">
+            <button  class="add">Add</button> <!-- No onclick here -->
+            <div class="list">
+                <ul class="addedList">
+                    <!-- List items will appear here -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
